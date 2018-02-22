@@ -9,7 +9,14 @@
   strong {
     font-weight: 500;
   }
+
+  &--blue {
+    color: $mainBlue;
+  }
+
   &__icon {
+    position: relative;
+    top: 8px;
     margin-bottom: .6rem;
     display: block;
     margin-left: auto;
